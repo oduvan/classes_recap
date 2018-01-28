@@ -1,6 +1,7 @@
 
 
 class Something:
+    # do something
     some = 'thing'
     __mama = 'papa'
 
@@ -11,6 +12,7 @@ class Something:
         return self.__mama
 
 class Pet(Something):
+    # do something else
     name = 'pet'
     __mama = 'OWO'
 
